@@ -18,9 +18,10 @@ public class TestJobApplicants {
     public static void setJobApplicants(Scanner scanner, JobApplicant applicant) {
         System.out.println("Please enter the applicant's name: ");
         applicant.setName(scanner.nextLine());
+        scanner.nextLine();
 
         System.out.println("Please enter the applicant's phone number: ");
-        applicant.setPhoneNumber(scanner.nextDouble());
+        applicant.setPhoneNumber(scanner.nextLine());
         scanner.nextLine();  // Clear the newline
 
         System.out.println("Is the applicant proficient in word processing (true or false): ");

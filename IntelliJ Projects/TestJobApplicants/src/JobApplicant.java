@@ -1,13 +1,18 @@
 public class JobApplicant {
     private String name;
-    private double phoneNumber;
-
+    private String phoneNumber;  // Changed to String
     private boolean wordProcessing;
     private boolean spreadsheets;
     private boolean databases;
     private boolean graphics;
 
-    public JobApplicant(String name, double phoneNumber, boolean wordProcessing,
+    // Default constructor
+    public JobApplicant() {
+        // You can initialize default values if necessary
+    }
+
+    // Constructor with parameters (optional)
+    public JobApplicant(String name, String phoneNumber, boolean wordProcessing,
                         boolean spreadsheets, boolean databases, boolean graphics) {
         this.name = name;
         this.phoneNumber = phoneNumber;
@@ -21,7 +26,7 @@ public class JobApplicant {
         return name;
     }
 
-    public double getPhoneNumber() {
+    public String getPhoneNumber() {  // Changed to String
         return phoneNumber;
     }
 
@@ -45,7 +50,7 @@ public class JobApplicant {
         this.name = name;
     }
 
-    public void setPhoneNumber(double phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {  // Changed to String
         this.phoneNumber = phoneNumber;
     }
 
@@ -64,5 +69,5 @@ public class JobApplicant {
     public void setGraphics(boolean graphics) {
         this.graphics = graphics;
     }
-
 }
+
