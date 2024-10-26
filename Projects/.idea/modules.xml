@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AscendingAndDecending/AscendingAndDecending.iml" filepath="$PROJECT_DIR$/AscendingAndDecending/AscendingAndDecending.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CellPhoneService/CellPhoneService.iml" filepath="$PROJECT_DIR$/CellPhoneService/CellPhoneService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java Programs/First Java program/First Java program.iml" filepath="$PROJECT_DIR$/Java Programs/First Java program/First Java program.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IntelliJ Projects.iml" filepath="$PROJECT_DIR$/.idea/IntelliJ Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java Programs/Java Programs.iml" filepath="$PROJECT_DIR$/Java Programs/Java Programs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MathTest/MathTest.iml" filepath="$PROJECT_DIR$/MathTest/MathTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PersonLocation/PersonLocation.iml" filepath="$PROJECT_DIR$/PersonLocation/PersonLocation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SportsTeamApp/SportsTeamApp.iml" filepath="$PROJECT_DIR$/SportsTeamApp/SportsTeamApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestJobApplicants/TestJobApplicants.iml" filepath="$PROJECT_DIR$/TestJobApplicants/TestJobApplicants.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java Programs/Triangle/Triangle.iml" filepath="$PROJECT_DIR$/Java Programs/Triangle/Triangle.iml" />
+    </modules>
+  </component>
+</project>
