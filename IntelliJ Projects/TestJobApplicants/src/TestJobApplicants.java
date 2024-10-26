@@ -12,6 +12,8 @@ public class TestJobApplicants {
         setJobApplicants(scanner, applicant2);
         setJobApplicants(scanner, applicant3);
 
+        System.out.println("hello");
+
         scanner.close();
     }
 
