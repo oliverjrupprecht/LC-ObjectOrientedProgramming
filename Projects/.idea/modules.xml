@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Apartment/Apartment.iml" filepath="$PROJECT_DIR$/Apartment/Apartment.iml" />
       <module fileurl="file://$PROJECT_DIR$/AscendingAndDecending/AscendingAndDecending.iml" filepath="$PROJECT_DIR$/AscendingAndDecending/AscendingAndDecending.iml" />
       <module fileurl="file://$PROJECT_DIR$/CellPhoneService/CellPhoneService.iml" filepath="$PROJECT_DIR$/CellPhoneService/CellPhoneService.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java Programs/First Java program/First Java program.iml" filepath="$PROJECT_DIR$/Java Programs/First Java program/First Java program.iml" />
