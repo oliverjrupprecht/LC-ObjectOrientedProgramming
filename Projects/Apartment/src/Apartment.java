@@ -5,7 +5,7 @@ public class Apartment {
     private int rentAmount;
 
     public Apartment(int apartmentNum, int bedroomNum, int bathNum, int rentAmount) {
-        this.apartmentNum = apartmentNum++;
+        this.apartmentNum = apartmentNum;
         this.bedroomNum = bedroomNum;
         this.bathNum = bathNum;
         this.rentAmount = rentAmount;
