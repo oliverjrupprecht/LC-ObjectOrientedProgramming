@@ -1,5 +1,3 @@
-import java.util.Objects;
-
 public class Inventory {
     private String[] inventory;
     private int itemCount;
@@ -7,7 +5,7 @@ public class Inventory {
 
     public Inventory() {
         this.inventory = new String[MAX_ITEMS];
-        this.itemCount = itemCount;
+        this.itemCount = 0;
     }
 
     public void addItem(String item) {
@@ -16,15 +14,15 @@ public class Inventory {
                 inventory[i] = item;
                 System.out.println(item + " is in slot " + (i + 1) + " of your inventory.");
                 itemCount++;
+                return;
             }
-
-            System.out.println("There are no free slots in your inventory!");
         }
+        System.out.println("There are no free slots in your inventory!");
     }
 
     public int hasItem(String item) {
         for (int i = 0; i < MAX_ITEMS; i++) {
-            if (Objects.equals(inventory[i], item)) {
+            if (inventory[i] != null && inventory[i].equals(item)) {
                 return i;
             }
         }
@@ -34,7 +32,7 @@ public class Inventory {
     public void removeItem(String item) {
         boolean found = false;
         for (int i = 0; i < MAX_ITEMS; i++) {
-            if (Objects.equals(inventory[i], item)) {
+            if (inventory[i] != null && inventory[i].equals(item)) {
                 inventory[i] = null;
                 found = true;
                 System.out.println(item + " has been removed from your inventory!");
@@ -49,11 +47,19 @@ public class Inventory {
     }
 
     public String displayInventory() {
-        String result = "";
+        StringBuilder result = new StringBuilder();
         for (int i = 0; i < MAX_ITEMS; i++) {
-            result += inventory[i] + " ";
+            if (inventory[i] != null) {
+                result.append(inventory[i]).append(" ");
+            } else {
+                result.append("empty ");
+            }
         }
+        return result.toString().trim();
+    }
 
-        return result;
+    public String[] getInventory() {
+        return inventory;
     }
 }
+

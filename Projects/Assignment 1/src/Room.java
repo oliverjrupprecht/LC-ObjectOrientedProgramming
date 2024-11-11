@@ -22,4 +22,8 @@ public class Room {
     public Position getPosition() {
         return position;
     }
+
+    public char getSymbol() {
+        return symbol;
+    }
 }
