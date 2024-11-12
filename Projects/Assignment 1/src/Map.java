@@ -5,8 +5,8 @@ public class Map {
     private final char EMPTY = '.';
 
     public Map() {
-        this.height = 8;
-        this.width = 8;
+        this.height = 6;
+        this.width = 6;
         this.map = new char[height][width];
 
         for (int x = 0; x < height; ++x) {
