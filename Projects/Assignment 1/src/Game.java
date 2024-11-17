@@ -52,6 +52,7 @@ public class Game {
                             currentRoom = getRoomAtPosition(playerPosition, rooms);
                             System.out.println("The code was correct! You moved to " + currentRoom.getName());
                             score.visitRoom();
+                            score.solvePuzzle();
                         } else {
                             System.out.println("Incorrect code. The door remains locked.");
                         }
@@ -289,6 +290,5 @@ public class Game {
         System.out.println("map - Display the current map of the game world.");
         System.out.println("quit - Exit the game.");
     }
-
 }
 
